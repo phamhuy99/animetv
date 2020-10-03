@@ -1,0 +1,100 @@
+.grid-box{
+	display: grid;
+	grid-template-columns: 12.5% 13% 13% 13% 13% 13%;
+	grid-gap: 40px;
+	position: relative;
+	margin-top: 30px;
+	margin-left: 3rem;
+}
+.item{
+	height: 195px;
+	border: 4px solid #AE25D9 ;
+	background-color: #03FBDD;
+}
+.item:hover{
+	opacity: 50%;
+}
+.box1{
+	
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box2{
+	background-image: url('/../assets/image/m2.jpg');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box3{
+	background-image: url('/../assets/image/m3.jpg');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box4{
+	background-image: url('/assets/image/m4.jpg');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box5{
+	background-image: url('/assets/image/m5.jpeg');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box6{
+	background-image: url('/assets/image/m6.jpg');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box7{
+	background-image: url('/assets/image/m7.jpg');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box8{
+	background-image: url('/assets/image/m8.png');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box9{
+	background-image: url('/assets/image/m9.jpg');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box10{
+	background-image: url('/assets/image/m10.jpg');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box11{
+	background-image: url('/assets/image/m11.jpg');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.box12{
+	background-image: url('/assets/image/m12.jpg');
+	background-size: contain; 
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.item button{
+	margin-top: 145px;
+	background-color: #F98605 !important;
+	border-radius: 5px;
+}
+.item button:hover{
+	background-color: #E3ED11;
+	color: #000;
+	border-color: #f00;
+}
+

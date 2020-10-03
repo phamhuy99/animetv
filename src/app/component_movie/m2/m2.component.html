@@ -1,0 +1,28 @@
+
+<div class="container-fluid text-center" id="boxA">
+	<div class="row" style="margin-top: 100px">
+		<video src="{{go1}}" width="400" height="250" controls="controls"></video>
+	</div>
+	
+	<!-- <video src="assets/video/video1.mp4" width="300" controls="controls"></video> -->
+	<ul class="pagination">
+		<li><a (click)="video(7)">&laquo;</a></li>
+		<li><a (click)="video(1)">1</a></li>
+		<li><a (click)="video(2)">2</a></li>
+		<li><a (click)="video(3)">3</a></li>
+		<li><a (click)="video(4)">4</a></li>
+		<li><a (click)="video(5)">5</a></li>
+		<li><a (click)="video(6)">6</a></li>
+		<li><a (click)="video(7)">7</a></li>
+		<li><a (click)="video(8)">8</a></li>
+		<li><a (click)="video(1)">&raquo;</a></li>
+	</ul>
+	<div>
+		<button type="button" class="btn btn-danger" [routerLink]="['/home']">back to home</button>
+	</div>
+	<label class="switch" style="margin-top: 2rem">
+   		<input type="checkbox">
+   		<span class="slider round"></span>
+ 	</label>
+
+</div>

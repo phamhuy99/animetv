@@ -1,0 +1,73 @@
+
+<div class="container-fluid">
+	<div class="row" style="margin-left: -3rem; margin-bottom: -20px">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="navbar">
+				<div class="container-fluid rotate" style="height: 50px; background-color: #002 ">
+					<a class="navbar-brand"><i class='fab fa-chrome' style='font-size:30px;color:red;margin-top: -5px'></i></a>
+
+					<ul class="nav navbar-nav text-center">
+						<li class="active" 
+						style="border-left:2px solid #008BFF;
+						border-right:2px solid #008BFF; 
+						width: 120px" 
+						routerLinkActive="active" 
+						[routerLinkActiveOptions]="{exact:true}"
+						>
+							<a [routerLink]="['/home']">
+							<i class='fas fa-home' style='font-size:20px;color:#008BFF'></i>   Home</a>
+						</li>
+						<li style="border-right:2px solid #008BFF;width: 110px"
+						routerLinkActive="active" 
+						[routerLinkActiveOptions]="{exact:true}"
+						>
+							<a [routerLink]="['/gogoV']">
+							<i class='fas fa-photo-video' style='font-size:20px;color:#008BFF'></i>   movie</a>
+						</li>
+						<li style="border-right:2px solid #008BFF;width: 110px">
+							<a [routerLink]="['/vdo1']">
+							<i class='fas fa-photo-video' style='font-size:20px;color:#008BFF'></i>   video1</a>
+						</li>
+						<li style="border-right:2px solid #008BFF;width: 110px">
+							<a [routerLink]="['/testphp']">
+							<i class='fas fa-photo-video' style='font-size:20px;color:#008BFF'></i>   PHP</a>
+						</li>
+						<li style="border-right:2px solid #008BFF;width: 110px">
+							<a [routerLink]="['/']">
+							<i class='fas fa-photo-video' style='font-size:20px;color:#008BFF'></i>   video3</a>
+						</li>
+						<li style="border-right:2px solid #008BFF;width: 110px">
+							<a [routerLink]="['/']">
+							<i class='fas fa-photo-video' style='font-size:20px;color:#008BFF'></i>   video4</a>
+						</li>
+						<li style="border-right:2px solid #008BFF;width: 110px">
+							<a [routerLink]="['/']">
+							<i class='fas fa-photo-video' style='font-size:20px;color:#008BFF'></i>   video5</a>
+						</li>
+						<li >
+							<input type="text" class="form-control" placeholder="tim kiem" style="width: 130px; margin-top: 10px; margin-left: 10px"
+							[(ngModel)]="name"
+							>
+						</li>
+						<li style="border-right:2px solid #008BFF; width: 115px">
+							<button type="button" class="btn btn-info"
+							style="margin-top: 8px;margin-left: -4px"
+							 (click)="onserch()"
+							>tim kiem
+							<i class='fas fa-search' style='font-size:20px'></i>
+							</button>
+						</li>
+						<li style="border-right:2px solid #008BFF;width: 110px">
+							<a [routerLink]="['/login']">
+							<i class='fas fa-key' style='font-size:20px;color:#008BFF'></i> LogIn</a>
+						</li>
+						<li style="border-right:2px solid #008BFF;width: 110px">
+							<a (click)="logout()">
+							<i class='fas fa-key' style='font-size:20px;color:#008BFF'></i> LogOut</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,47 @@
+<div class="container-fluid">
+	<h1><span>Admin</span><span>SetUp</span><span>Movie</span></h1>
+	<div class="row">
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<form class="text-center" id="fom1" style="width: 300px; background-color: #A57459">
+				<legend>add movie</legend>
+			
+				<div class="form-group">
+					<label >name</label>
+					<input type="text" class="form-control"  placeholder="name" #name>
+				</div>
+				<div class="form-group">
+					<label >link</label>
+					<input type="text" class="form-control"  placeholder="link" #link>
+				</div>
+				<button type="button" class="btn btn-primary" (click)="addMovie(name.value,link.value)">Add-movie</button>
+
+			</form>
+		</div>
+		<!-- ===== -->
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<form class="text-center" style="width: 300px; background-color: #A57459">
+				<legend>edit movie</legend>
+				<div class="form-group">
+					<label >id</label>
+					<input type="number" class="form-control"  placeholder="id" #id>
+				</div>
+				<div class="form-group">
+					<label >name</label>
+					<input type="text" class="form-control"  placeholder="name" #name1>
+				</div>
+				<div class="form-group">
+					<label >link</label>
+					<input type="text" class="form-control"  placeholder="link" #link1>
+				</div>
+				<button type="button" class="btn btn-primary bn1" (click)="editmovie(id.value,name1.value,link1.value)">Save</button>
+				<button type="button" class="btn btn-danger bn1" (click)="deleteMovie(id.value)">Delete</button>
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			
+		</div>
+	</div>
+</div>

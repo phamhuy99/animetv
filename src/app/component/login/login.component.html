@@ -1,0 +1,28 @@
+
+<div class="container-fluid">
+	<div class="row text-center">
+	
+		<form class="text-center">
+			<legend>LogIn To Home</legend>
+			
+			<div class="form_conten text-center">
+				<div class="form-group">
+					<label for="">UserName</label>
+					<input type="text" class="form-control" id="" placeholder="username" #name>
+				</div>
+				<div class="form-group">
+					<label for="">PassWord</label>
+					<input type="text" class="form-control" id="" placeholder="password" #pass>
+				</div>
+		
+				<button  type="button" class="btn btn-primary" 
+				(click)="onlick(name.value,pass.value)"
+				>LogIn</button>
+			</div>
+			<div class="alert alert-danger" *ngIf="error == -1">
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;		</button>
+				<strong>PassWord ko dung</strong>...vui long nhap lai
+			</div>
+		</form>
+	</div>
+</div>

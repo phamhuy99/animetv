@@ -1,0 +1,82 @@
+
+<div class="container-fluid">
+  <!-- <router-outlet name="outlet1"></router-outlet> -->
+  <!-- <router-outlet name="outlet2" ></router-outlet> -->
+<!-- ========================================================================= -->
+  <div class="row">
+    <form class="sizefom">
+      <div class="form-group dropdown">
+        <input type="text" class="form-control" id="" placeholder="ban muon tim gi ??" [(ngModel)]="name" [ngModelOptions]="{standalone: true}" data-toggle="dropdown" aria-expanded="false">
+        <div class="dropdown-menu">
+          <h3 id="la11">tim kiem:{{name}}</h3>
+        </div>
+      </div>
+      <div>
+        <button type="button" class="btn btn-primary btn11" (click)="onserch()">tim kiem</button>
+      </div>
+      <div>
+        <button type="button" class="btn btn-danger btn22" [routerLink]="['/vdo1']" [queryParams]="{name:name ? name : ''}"><i class='fas fa-search' 
+        style='font-size:15px;color:#FF7300'></i></button>
+      </div>
+    </form>
+  </div>
+<!-- ======================================================================== -->
+
+<!-- ============================================================================== -->
+	<div class="row">
+		<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" id="txtEROR">
+			<div class="panel pan1">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" *ngFor="let item of arr2">
+	        	<div class="card bg-primary text-center" id="cartimg1">
+	        		<!-- ---------- -->
+	          	<img src="assets/image/m1.png" class="card-img-top" alt="..." width="148" height="200">
+	          		<!-- ----------- -->
+	         	<div class="card-body">
+	            <p class="card-text">Some quick example text{{item.name}} </p>
+	            <button type="button" class="btn btn-warning" [routerLink]="item.link">
+	            Trailer</button>
+	          	</div>
+	        	</div>
+	      		</div>
+			</div>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+			<div class="panel panel-danger text-center">
+				<div class="panel-heading">
+					<h3 class="panel-title">Movie New</h3>
+				</div>
+				<div class="panel-body">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" *ngFor="let item of newMovie">
+						<div class="card dark" id="cartN"style="width: 170px;height: 300px;margin-left: 1px;margin-top: 5px">
+						  <img src="assets/image/m1.png" class="card-img-top" alt="..." width="165" height="250">
+						  <div class="card-body">
+						    <p class="card-text">new movie</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<button type="button" class="btn btn-info" 
+		[routerLink]="['/vdo1',{outlets:{
+			'outlet1':['vdo2'],
+			'outlet2':['vdo3']
+			}}]">Go video 2</button>
+			<!-- ===== -->
+		<button type="button" class="btn btn-warning"
+		[routerLink]="['/vdo1']"
+		style="left: 100% ; float: right ; background: #f00" 
+		>back</button>
+
+		
+
+		 <router-outlet name="outlet1"></router-outlet>
+
+</div>
+
+
+
+			
+
+				

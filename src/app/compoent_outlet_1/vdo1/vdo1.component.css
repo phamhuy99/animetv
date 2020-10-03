@@ -1,0 +1,99 @@
+.container-fluid{
+	background-image: url('/assets/image/bg10.jpg');
+	background-size: cover;
+	background-repeat: repeat-y;
+	height: 600px;
+ 	overflow-y: auto;
+	
+}
+.panel.pan1{
+	width: 800px;
+	height: 400px;
+	overflow-y: scroll;
+	padding: 20px;
+	position: relative;
+	border: 2px solid #FF8800;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+#cartimg1{
+	border: 3px solid #f00;
+	height: 250px;
+	margin-bottom: 30px;
+}
+#cartimg1:hover{
+	opacity: 70%;
+	border: 3px solid #FF8800;
+	transition: 1s;
+	box-shadow: 10px 10px 10px rgba(248, 176, 6, 0.8),
+				-10px -10px 10px rgba(255, 1, 196, 0.8);
+}
+
+#cartimg1 button {
+	margin-top: -170px;
+}
+#cartimg1 button:hover {
+	background-color: #00F9FF;
+	color: #000;
+	border-radius: 20px;
+	transition: 3s;
+
+}
+form.sizefom {
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.sizefom input{
+	border-radius: 20px;
+	border: 2px solid #FF8800;
+
+}
+.sizefom input:focus{
+	background-color: #827762;
+	color: #FF8800;
+	transition: 3s;
+}
+.dropdown-menu{
+	border-radius: 20px;
+	background-color: #827762;
+	width: 800px;
+	height: 40px;
+}
+.dropdown-menu h3{
+	margin-top: 1px;
+	margin-left: 20px;
+	color: #FF8800;
+}
+.sizefom button.btn11{
+	float: right;
+	display: block;
+	margin-right: -200px;
+	margin-top: -50px;
+}
+.sizefom button.btn22{
+	float: right;
+	display: block;
+	margin-top: -55px;
+	margin-right: -70px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #886B62;
+}
+.sizefom button.btn22:hover{
+	background: #C4DC22;
+	color: #FF00C1;
+	transition: 1.5s;
+}
+.panel{
+	background: #5176AD;
+	opacity: 0.9;
+}
+.panel.panel-danger{
+	height: 400px;
+	overflow-y: auto;
+	border: 3px solid #FF8800;
+}
+#cartN{
+	border: 3px solid #FF8800;
+}

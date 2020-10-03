@@ -1,0 +1,65 @@
+@import url('https://fonts.google.com/specimen/Pacifico?sidebar.open=true&selection.family=Pacifico');
+body{
+	font-family: 'Pacifico';
+	font-size: 15px;
+	position: relative;
+}
+ul li a {
+	color: #000000;
+}
+li ul.dropdown-menu{
+	width: 50px;
+	font-size: 20px;
+}
+ul li a:hover {
+	color: #00F2FF;
+}
+.navbar{
+	background-color: rgba(190, 75, 80, 0.7) !important;
+}
+ul li a.h11 {
+	background-color: rgba(20, 190, 150, 1.0) !important;
+}
+ul li a.h12 {
+	background-color: rgba(120, 90, 150, 1.0) !important;
+}
+div img.wh {
+	width: 1200px;
+	height: 500px;
+}
+div.bg1{
+	/* position: absolute; */
+	background-color: rgba(65, 70, 120, 1.0);
+	margin-top: -20px;
+}
+div.bg1 div.panel{
+	margin-top: 50px;
+}
+div.bg1 div form{
+	margin-top: 50px;
+}
+hr.hr1{
+	border-top: 2px solid #FF000E;
+	width: 90%;
+	margin-bottom: 2rem;
+}
+/* ============================================ */
+p a.btn-primary{
+	margin: 15px;
+}
+p a.btn-primary:hover{
+	margin: 15px;
+	background-color: #FFED00;
+	color: #17B3E7;
+}
+/* ========================================== */
+@media (max-width: 992px) {
+	
+}
+@media (max-width: 768px) {
+	
+}
+@media (max-width: 467px) {
+	
+}
+

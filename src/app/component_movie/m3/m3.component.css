@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&display=swap');
+div.container-fluid{
+	font-family: 'Pacifico', cursive;
+	background-image: url('/assets/image/bg6.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+div.row{
+	background-color: #6D56A8;
+	width: 1108px;
+	height: 50px;
+	color: #f00;
+}
+#side_btn {
+	margin-left: 170px;
+	color: #000;
+	float: left;
+	margin-top: -40px;
+	font-size: 30px;
+
+}
+#side_btn i:hover{
+	color: #0DF1E8;
+}
+.left_a {
+	margin-top: -10px;
+}
+.left_a h3{ margin-left: 10px; }
+.left_a span{
+	color: #83DB23;
+	margin-left: 5px;
+}
+.right_a a {
+	float: right;
+	background-color: #0DF1E8;
+	color: #000;
+	margin-top: -33px;
+	border: 3px solid #B78547;
+	border-radius: 5px;
+	margin-right: 60px;
+}
+.right_a1 a {
+	float: right;
+	background-color: #0DF1E8;
+	color: #000;
+	margin-top: -33px;
+	border: 3px solid #B78547;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.right_a a:hover, .right_a1 a:hover{
+	background-color: #FFA000;
+}
+/* ============================================ */
+.side_bar{
+	background-color: #742CD2;
+	width: 200px;
+	height: 500px;
+	color: #000;
+	margin-left: -15px;
+	border: 2px solid #FFA000;
+	text-align: center;
+	transition: 1s;
+}
+.side_bar .profile_image{
+	border-radius: 100px;
+	border: 2px solid ##0DF1E8;
+	margin-top: 10px;
+}
+.side_bar h4{
+	margin-bottom: 30px;
+}
+
+.side_bar a{
+	color: #000;
+	display: block;
+	line-height: 60px;
+	margin-left: -50px;
+	font-size: 2rem;
+	text-decoration: none;
+	box-sizing: border-box;
+	transition: 0.5s;
+	transition-property: background;
+}
+.side_bar a:hover{
+	background-color: #FFA000;
+}
+.side_bar a i{
+	margin-right: 10px;
+}
+/* ============================================= */
+
+#check:checked ~ .side_bar{
+	margin-left: -170px;
+	
+}
+#check:checked ~ .side_bar a span{
+	display: none; /* an ki tu text */
+}
+#check:checked ~ .side_bar a {
+	margin-left: 158px;
+	font-size: 30px;
+}
+#check {
+	display: none;
+}
+
+

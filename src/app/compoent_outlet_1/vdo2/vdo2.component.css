@@ -1,0 +1,46 @@
+.container-fluid{
+	background-color: #F9AE05;
+	width: 100%;
+	height: 500px;
+}
+h1{
+	margin-left: 400px;
+	border: 3px solid #000;
+	font-size: 25px;
+	width: 220px;
+	text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+h1:hover{
+	text-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+h1 span:nth-child(1){
+	color: #9100FF;
+}
+h1 span:nth-child(2){
+	color: #2AD46F;
+}
+h1 span:nth-child(3){
+	color: #00FFE7;
+}
+form.text-center{
+	margin-left:100px;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+form.text-center#fom1{
+	height: 350px;
+}
+form.text-center#fom1 button{
+	margin-top: 100px;
+}
+.form-group input{
+	width: 200px;
+	text-align: center;
+	/* overflow-x: auto;
+	text-overflow: ellipsis; */
+	margin-left: 50px;
+	border-radius: 50px;
+}
+form button.bn1{
+	margin: 20px;
+}

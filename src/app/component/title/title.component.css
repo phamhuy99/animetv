@@ -1,0 +1,12 @@
+.fun{
+	width: 100%;
+	font-size: 15px;
+}
+.fun:hover{
+	background-color: #DDA321;
+}
+hr.abc{
+	border-top: 3px solid #E11DCD;
+	width: 90%;
+	height: 3px;
+}
